@@ -7,9 +7,9 @@
     "site": "yarn workspace site",
     "dev:site": "yarn site dev",
     "build:site": "yarn site build",
-    "components": "yarn workspace components",
-    "dev:components": "yarn components dev",
-    "build:components": "yarn components build"
+    "shared": "yarn workspace shared",
+    "dev:shared": "yarn shared dev",
+    "build:shared": "yarn shared build"
   },
   "license": "MIT"
 }

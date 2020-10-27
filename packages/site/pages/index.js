@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-// import { Button } from 'components/src/Button'; 
+import { Button } from 'shared/components/Button'; 
 
 const Section = styled.section`
   background: red;
@@ -18,9 +18,9 @@ function HomePage() {
         background: red;
         color: white;
       </Section>
-      {/* <Button type="submit">
+      <Button type="submit">
         color: purple;
-      </Button> */}
+      </Button>
     </div>
   );
 }
